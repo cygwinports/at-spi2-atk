@@ -1,4 +1,4 @@
 category: Accessibility Gnome
-requires: libatk1.0_0 libdbus-glib_1_2 libdbus1_3 libgcc1 libglib2.0_0 libX11_6
+requires: at-spi2-core libatk1.0_0 libdbus-glib_1_2 libdbus1_3 libgcc1 libglib2.0_0 libX11_6
 sdesc: "AT-SPI/D-Bus GTK+ bridge"
 ldesc: "Next generation GNOME accessibility framework, based on D-Bus"
