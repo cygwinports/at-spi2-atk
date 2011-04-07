@@ -2,5 +2,3 @@ inherit gnome2
 
 
 DIFF_EXCLUDES="dbind-config.h"
-
-CYGCONF_ARGS="--disable-relocate"
