@@ -1,0 +1,9 @@
+inherit gnome2
+
+
+DEPEND="gnome-common intltool
+	pkgconfig(atk)
+	pkgconfig(atspi-2)
+	pkgconfig(dbus-1)"
+
+DIFF_EXCLUDES="dbind-config.h"
