@@ -7,3 +7,5 @@ DEPEND="gnome-common intltool
 	pkgconfig(dbus-1)"
 
 DIFF_EXCLUDES="dbind-config.h"
+
+KEEP_LA_FILES="none"
