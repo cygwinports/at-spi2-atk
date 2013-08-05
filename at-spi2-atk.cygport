@@ -1,9 +1,9 @@
 inherit gnome2
 
 NAME="at-spi2-atk"
-VERSION=2.6.2
+VERSION=2.8.1
 RELEASE=1
-CATEGORY="GNOME"
+CATEGORY="Libs"
 SUMMARY="AT-SPI/D-Bus GTK+ bridge"
 DESCRIPTION="Next generation GNOME accessibility framework, based on D-Bus"
 
@@ -13,7 +13,9 @@ DEPEND="gnome-common intltool
 	pkgconfig(dbus-1)"
 
 PKG_NAMES="${NAME} gtk2.0-atk-bridge libatk-bridge2.0_0 libatk-bridge2.0-devel"
-at_spi2_atk_CONTENTS="etc/ usr/share/"
+at_spi2_atk_CATEGORY="X11"
+at_spi2_atk_CONTENTS="usr/share/"
+gtk2_0_atk_bridge_CATEGORY="X11"
 gtk2_0_atk_bridge_CONTENTS="usr/lib/gnome-settings-daemon-3.0/ usr/lib/gtk-2.0/"
 libatk_bridge2_0_0_CONTENTS="at-spi2-atk at-spi2-core"
 libatk_bridge2_0_0_CONTENTS="usr/bin/cygatk-bridge-2.0-0.dll"
